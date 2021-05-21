@@ -3,15 +3,19 @@
 }
 
 .header_menu {
+    position: fixed; /* Фиксированное позиционирование */
+    left: 0; right: 0; /* Вся ширина */
+    top: 0; /* Положение сверху */
     padding: 13px 71px 13px;
     height: 53px;
     background: #212121; 
     margin: 0;
+    z-index: 1;
 }
 
 .header_menu .menu_item {
     border-right: 2px dotted black;
-    padding-right: 33px;
+    padding-right: 53px;
 }
 
 .header_menu .menu_link {
@@ -30,6 +34,7 @@
 .subheader {
     position: absolute;
     width: 100%;
+    margin-top: 53px;
     height: 87px;
     background: rgba(0, 0, 0, 0.6);
 }
