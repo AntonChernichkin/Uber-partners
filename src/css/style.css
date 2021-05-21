@@ -180,10 +180,25 @@
     border-radius: 100%;
 }
 
-.advantages .advantages_item .advanteges_img_item .advanteges_logo {
-    width: 80px;
-}
+/* .advantages .advantages_item .advanteges_img_item .advanteges_logo {
+    width: 70%;
+    height: 50%;
+} */
 
 .advantages .advantages_item .advanteges_logo_desc {
     width: 371px;
-} 
+    height: 150px;
+    margin-top: 16px;
+    margin-bottom: 10px;
+    font-weight: 300;
+    font-size: 15px;
+    /* line-height: 21px; */
+    color: #202020;
+}
+
+.advantages .advantages_item .advanteges_logo_desc span {
+    font-weight: 400;
+    font-size: 17px;
+    /* line-height: 21px; */
+    color: #1EACC7;
+}
