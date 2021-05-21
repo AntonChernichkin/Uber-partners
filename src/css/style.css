@@ -117,7 +117,7 @@
 
 .promo .promo_btn {
     display: block;
-    margin: 115px auto 186px auto;
+    margin: 115px auto 0 auto;
     width: 259px;
     height: 63px;
     background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
@@ -132,3 +132,58 @@
     color: #FFFFFF;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
 }
+
+.advantages {
+    min-height: 864px;
+}
+
+.advantages .advantages_header {
+    margin: 18px auto 0px auto;
+    padding-top: 6px;
+    width: 113px;
+    height: 24px;
+    background: black;
+    font-weight: 400;
+    font-size: 11px;
+    /* line-height: 11px; */
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.advantages .advantages_title {
+    padding: 0;
+    margin: 0;
+    margin-top: 32px;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 38px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+.advantages .advantages_item {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 150px;
+}
+
+.advantages .advantages_item .advanteges_img_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 116px;
+    height: 116px;
+    background: #1EACC7;
+    border-radius: 100%;
+}
+
+.advantages .advantages_item .advanteges_img_item .advanteges_logo {
+    width: 80px;
+}
+
+.advantages .advantages_item .advanteges_logo_desc {
+    width: 371px;
+} 
