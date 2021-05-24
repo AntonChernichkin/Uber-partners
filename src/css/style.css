@@ -69,6 +69,9 @@
     text-transform: uppercase;
     color: #FFFFFF;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21); }
+    .subheader .subheader_btn:hover {
+      background-image: none;
+      background-color: #1EACC7; }
 
 .promo {
   min-height: 799px;
@@ -112,6 +115,9 @@
     text-transform: uppercase;
     color: #FFFFFF;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21); }
+    .promo .promo_btn:hover {
+      background-image: none;
+      background-color: #1EACC7; }
 
 .label {
   margin: 18px auto 0px auto;
@@ -143,6 +149,8 @@
     color: #ffffff;
     line-height: 48px;
     margin-top: 26px; }
+  .title_conditions {
+    margin-top: 27px; }
 
 .advantages {
   min-height: 864px; }
@@ -241,9 +249,29 @@
       width: 29px;
       height: 29px;
       border-radius: 100%;
-      cursor: pointer; }
+      cursor: pointer;
+      -webkit-transition: 0.5s all;
+      transition: 0.5s all; }
       .mobile_item_plus img {
         max-height: 70%; }
+      .mobile_item_plus::before {
+        content: "";
+        display: block;
+        width: 14px;
+        height: 2px;
+        background-color: #1EACC7; }
+      .mobile_item_plus::after {
+        content: "";
+        display: block;
+        position: absolute;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+                transform: translateX(-50%);
+        width: 2px;
+        height: 14px;
+        background-color: #1EACC7; }
+      .mobile_item_plus:hover {
+        background-color: #AEF4B4; }
 
 .choice {
   position: relative;
@@ -273,5 +301,29 @@
     line-height: 24px;
     text-align: center;
     color: #222222; }
+
+.conditions {
+  padding: 48px 0 59px 0; }
+  .conditions_item {
+    margin: 33px 0 28px 0; }
+    .conditions_item ul {
+      font-weight: 300;
+      font-size: 17px;
+      line-height: 24px;
+      text-indent: 50px;
+      color: #222222;
+      padding-left: 50px; }
+  .conditions_subtitle {
+    margin-top: 20px;
+    color: #1CA8C3;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px; }
+  .conditions_desc {
+    margin-top: 25px;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 24px;
+    color: #1CA8C3; }
 
 /*# sourceMappingURL=style.css.map */

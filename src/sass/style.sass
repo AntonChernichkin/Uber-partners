@@ -1,4 +1,12 @@
 $btn_color: #1EACC7
+$blue_color: #1CA8C3
+$red_color: #FF5656
+
+
+=btn_hover
+	&:hover
+		background-image: none
+		background-color: $btn_color
 
 *
 	font-family: 'Roboto', sans-serif
@@ -74,6 +82,8 @@ $btn_color: #1EACC7
 		text-transform: uppercase
 		color: #FFFFFF
 		text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21)
+		+btn_hover
+		
 
 .promo
 	min-height: 799px
@@ -119,6 +129,7 @@ $btn_color: #1EACC7
 		text-transform: uppercase
 		color: #FFFFFF
 		text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21)
+		+btn_hover
 
 .label
 	margin: 18px auto 0px auto
@@ -150,6 +161,8 @@ $btn_color: #1EACC7
 		color: #ffffff
 		line-height: 48px
 		margin-top: 26px
+	&_conditions
+		margin-top: 27px
 
 .advantages
 	min-height: 864px
@@ -235,8 +248,26 @@ $btn_color: #1EACC7
 			height: 29px
 			border-radius: 100%
 			cursor: pointer
+			transition: 0.5s all
 			img
 				max-height: 70%
+			&::before
+				content: ""
+				display: block
+				width: 14px
+				height: 2px
+				background-color: $btn_color
+			&::after
+				content: ""
+				display: block
+				position: absolute
+				left: 50%
+				transform: translateX(-50%)
+				width: 2px
+				height: 14px
+				background-color: $btn_color
+			&:hover
+				background-color: #AEF4B4
 
 .choice
 	position: relative
@@ -265,3 +296,29 @@ $btn_color: #1EACC7
 		line-height: 24px
 		text-align: center
 		color: #222222
+
+.conditions
+	padding: 48px 0 59px 0
+	&_item
+		margin: 33px 0 28px 0
+		ul
+			font-weight: 300
+			font-size: 17px
+			line-height: 24px
+			text-indent: 50px
+			color: #222222
+			padding-left: 50px
+			// list-style-type: none
+			// li
+	&_subtitle
+		margin-top: 20px
+		color: $blue_color
+		font-weight: 400
+		font-size: 22px
+		line-height: 24px
+	&_desc
+		margin-top: 25px
+		font-weight: 300
+		font-size: 17px
+		line-height: 24px
+		color: $blue_color
