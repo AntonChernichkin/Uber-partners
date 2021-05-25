@@ -536,26 +536,34 @@ footer .delimiter {
 
 /* line 384, ../../../../../Desktop/Антон/123123/Practics/Uber_partners/src/sass/style.sass */
 .footer_wrapper .icons_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 35px;
   width: 35px;
   background-color: #000;
   border-radius: 100%;
 }
 
-/* line 389, ../../../../../Desktop/Антон/123123/Practics/Uber_partners/src/sass/style.sass */
+/* line 392, ../../../../../Desktop/Антон/123123/Practics/Uber_partners/src/sass/style.sass */
+.footer_wrapper .icons_item i {
+  color: #fff;
+}
+
+/* line 394, ../../../../../Desktop/Антон/123123/Practics/Uber_partners/src/sass/style.sass */
 .footer_wrapper .footer_nav {
   margin-left: 140px;
   width: 420px;
   min-height: 120px;
 }
 
-/* line 394, ../../../../../Desktop/Антон/123123/Practics/Uber_partners/src/sass/style.sass */
+/* line 399, ../../../../../Desktop/Антон/123123/Practics/Uber_partners/src/sass/style.sass */
 .footer_wrapper .footer_nav .footer_nav_top {
   display: flex;
   justify-content: space-between;
 }
 
-/* line 397, ../../../../../Desktop/Антон/123123/Practics/Uber_partners/src/sass/style.sass */
+/* line 402, ../../../../../Desktop/Антон/123123/Practics/Uber_partners/src/sass/style.sass */
 .footer_wrapper .footer_nav .footer_nav_top_item {
   margin-top: 24px;
   font-weight: 300;
@@ -564,13 +572,13 @@ footer .delimiter {
   color: #070716;
 }
 
-/* line 404, ../../../../../Desktop/Антон/123123/Practics/Uber_partners/src/sass/style.sass */
+/* line 409, ../../../../../Desktop/Антон/123123/Practics/Uber_partners/src/sass/style.sass */
 .footer_wrapper .footer_nav .footer_nav_mid {
   display: flex;
   justify-content: space-between;
 }
 
-/* line 407, ../../../../../Desktop/Антон/123123/Practics/Uber_partners/src/sass/style.sass */
+/* line 412, ../../../../../Desktop/Антон/123123/Practics/Uber_partners/src/sass/style.sass */
 .footer_wrapper .footer_nav .footer_nav_mid_item {
   margin-top: 15px;
   font-weight: 300;
@@ -579,13 +587,13 @@ footer .delimiter {
   color: #999999;
 }
 
-/* line 414, ../../../../../Desktop/Антон/123123/Practics/Uber_partners/src/sass/style.sass */
+/* line 419, ../../../../../Desktop/Антон/123123/Practics/Uber_partners/src/sass/style.sass */
 .footer_wrapper .footer_nav .footer_nav_bot {
   display: flex;
   justify-content: center;
 }
 
-/* line 417, ../../../../../Desktop/Антон/123123/Practics/Uber_partners/src/sass/style.sass */
+/* line 422, ../../../../../Desktop/Антон/123123/Practics/Uber_partners/src/sass/style.sass */
 .footer_wrapper .footer_nav .footer_nav_bot_item {
   margin-top: 18px;
   font-size: 11px;
@@ -593,13 +601,13 @@ footer .delimiter {
   color: #1FBAD6;
 }
 
-/* line 423, ../../../../../Desktop/Антон/123123/Practics/Uber_partners/src/sass/style.sass */
+/* line 428, ../../../../../Desktop/Антон/123123/Practics/Uber_partners/src/sass/style.sass */
 .footer_wrapper .footer_nav a {
   display: block;
   text-decoration: none;
 }
 
-/* line 426, ../../../../../Desktop/Антон/123123/Practics/Uber_partners/src/sass/style.sass */
+/* line 431, ../../../../../Desktop/Антон/123123/Practics/Uber_partners/src/sass/style.sass */
 .footer_wrapper .devices {
   display: flex;
   justify-content: space-between;
@@ -608,7 +616,7 @@ footer .delimiter {
   background-color: #87cde2;
 }
 
-/* line 432, ../../../../../Desktop/Антон/123123/Practics/Uber_partners/src/sass/style.sass */
+/* line 437, ../../../../../Desktop/Антон/123123/Practics/Uber_partners/src/sass/style.sass */
 .footer_wrapper .devices img {
   width: 94px;
   height: 27px;
