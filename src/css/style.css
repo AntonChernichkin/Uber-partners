@@ -13,6 +13,8 @@
   .header_menu .menu_item {
     border-right: 2px dotted black;
     padding-right: 53px; }
+    .header_menu .menu_item:last-child {
+      border-right: none; }
   .header_menu .menu_link {
     font-weight: 300;
     font-size: 15px;
