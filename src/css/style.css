@@ -20,12 +20,13 @@
     font-size: 15px;
     color: #FFFFFF;
     text-decoration: none; }
-  .header_menu ul {
+  .header_menu .menu {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     list-style-type: none; }
 
 .subheader {
@@ -520,5 +521,42 @@ footer {
 
   .advantages_item_logo_desc {
     width: 371px; } }
+@media (max-width: 767px) {
+  header {
+    position: relative; }
+
+  .header_menu .menu {
+    position: fixed;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    top: 0;
+    left: -100%;
+    width: 50%;
+    height: 100vh;
+    padding: 20px 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+    -webkit-transition: 0.6s all;
+    transition: 0.6s all; }
+    .header_menu .menu_active {
+      left: 0; }
+    .header_menu .menu .menu_item {
+      padding-right: 0;
+      border: none;
+      margin: 10px 0; }
+    .header_menu .menu .menu_link {
+      font-size: 20px; }
+
+  .choice_car {
+    width: 560px;
+    height: 360px;
+    top: 285px; } }
 
 /*# sourceMappingURL=style.css.map */
