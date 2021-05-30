@@ -79,35 +79,56 @@
 				margin: 10px 0
 			.menu_link
 				font-size: 20px
+	.subheader
+		.subheader_btn
+			margin-top: 4px
 	.choice_car
 		width: 560px
 		height: 360px
 		top: 285px
-	.hamburger
-		display: block
-		position: absolute
-		right: 10px
-		top: 50%
-		transform: translateY(-50%)
-		width: 24px
-		span
-			display: block
-			height: 2px
-			width: 100%
-			background-color: #fff
-			margin-bottom: 4px
-			transition: 0.6s all
-		&_active
-			span
-				margin-bottom: -2px
-				&:nth-child(1)
-					transform: rotate(-45deg)
-				&:nth-child(2)
-					display: none
-				&:nth-child(3)
-					transform: rotate(45deg)
+	+hamburger
 	.xs-hidden
 		display: none
 	.subheader
 		.xs-visable
 			display: block
+
+@media (max-width: 575px)
+	+hamburger
+	.promo_header
+		font-size: 36px
+	.promo_subheader
+		font-size: 22px
+		line-height: 28px
+		margin-top: 4px
+	.choice_car
+		width: 320px
+		height: 190px
+		top: 400px
+	.xs-hidden
+		display: none
+	.subheader
+		.xs-visable
+			display: block
+	.footer_wrapper
+		.footer_nav
+			width: 310px
+	footer
+		.delimiter
+			width: 250px
+	.subheader 
+		.phone_numb
+			font-size: 16px
+	.subheader 
+		.subheader_btn
+			margin-top: 6px
+	.header_menu 
+		.menu 
+			.menu_link
+				font-size: 10px
+	.advantages_item
+		flex-direction: column
+		justify-content: center
+		align-items: center
+		&_logo_desc
+			width: 300px
